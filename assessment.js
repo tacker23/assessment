@@ -96,7 +96,7 @@ function assessment(userName) {
 }
 
 console.assert(
-	assessment('tucker') === 'tuckerのいいところはその全てです。ありのままのtucker自身がいいところなのです。', '診断結果の文言の特定の部分を名前に置き換える処理が正しくありません。'
+	assessment('e') === 'eのいいところは優しさです。eの優しい雰囲気や立ち振る舞いに多くの人が癒やされています。', '診断結果の文言の特定の部分を名前に置き換える処理が正しくありません。'
 );
 console.assert(
 	assessment('tucker') === assessment('tucker'), '名前によって診断結果を一致させる処理が正しくありません。'
